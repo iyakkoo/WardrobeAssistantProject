@@ -4,7 +4,7 @@
 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
              version="2.1">
 
-    <persistence-unit name="knowledgePU">
+    <persistence-unit name="wardrobePU">
         <properties>
             <!--<property name="javax.persistence.jdbc.url"-->
             <!--value="jdbc:postgresql://localhost:5432/knowledge_db"/>-->
