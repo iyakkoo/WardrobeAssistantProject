@@ -1,0 +1,75 @@
+body {
+
+    font-size: 18px;
+    color: white;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background-image: url(img/background.jpeg)
+    
+}
+#container {
+
+    width: 1218px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+#header{
+    font-size: 28px;
+    width: 1218px;
+    height: 140px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+#content{
+float: left;
+width: 559px;
+height: 800;
+padding-left: 50px;
+}
+
+#img{
+float: left;
+width: 579px;
+height: 800px;
+padding-right: 30px;
+
+}
+
+#footer{
+    clear: both;
+}
+
+.panel{
+    width: 1218px;
+    height: 500px;
+}
+
+#button1{
+float: left;
+width: 100px;
+height: 100px;
+}
+#button2{
+float: left;
+width: 100px;
+height: 100px;
+}
+#button3{
+float: left;
+width: 100px;
+height: 100px;
+}
+
