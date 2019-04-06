@@ -8,7 +8,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: 700;
     background-image: url(img/background.jpeg)
     
@@ -176,13 +176,13 @@ background-color: #FF9100
 }
 
 #zaloguj{
-    font-size: 13px;
+    font-size: 11px;
     width: 80px;
     height: 40px;
     margin-top: 20px;
     border-radius: 5px;
     border: #00BCD4, 3px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Comfortaa', cursive;
     margin-right: 100px;
     margin-left: 100px;
     background-color: #00BCD4;
@@ -190,7 +190,7 @@ background-color: #FF9100
 
 #logintable{
     border-radius: 5px;
-    margin-left:8px;
+    margin-left:13px;
 }
 #paswordtable{
     border-radius: 5px;
