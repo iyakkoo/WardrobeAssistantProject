@@ -25,6 +25,6 @@ function changeSlide(){
 
     document.getElementById("img").innerHTML = file;
     $("#img").fadeIn(500);
-    timer1 = setTimeout("changeSlide()", 5000);
-    timer2 = setTimeout("toHide()", 4500);
+    timer1 = setTimeout("changeSlide()", 6000);
+    timer2 = setTimeout("toHide()", 5500);
 }

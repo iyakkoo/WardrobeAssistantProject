@@ -16,6 +16,7 @@ body {
 #container {
 
     width: 1218px;
+    height: 1000px;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -28,7 +29,8 @@ body {
     margin: 20px;
     padding-top: 5px;
     padding-block-end: 40px;
-    background-color: #FF9100;
+    border-radius: 5px;
+    background-image: url(img/Orange-Background2.png)
     
 }
 
@@ -36,35 +38,54 @@ body {
     margin-block-end: 30px;
 }
 
-#login{
-    width: 300px;
-    height: 170px;
-    padding: 30px;
-    margin-top: 100px;
-    background-color: #00B8D4
-}
-
 #content{
 float: left;
 width: 559px;
-height: 750;
-padding-left: 50px;
+height: 370;
+padding-left: 30px;
 padding-top: 50px;
+padding-block-end: 30px;
+margin-left: 20px;
 margin-top: 50px;
+border-radius: 10px;
+background: rgba(33, 28, 28, 0.5);
+filter: alpha(opacity=10);
+
 }
 
 #img{
 float: left;
-width: 579px;
-height: 800px;
+width: 529px;
+height: 400px;
 margin-top: 100px;
+margin-left: 50px;margin-block-end: 50px;
 padding-right: 30px;
 
 }
 
-#footer{
+#login{
     clear: both;
+    width: 300px;
+    height: 170px;
+    padding: 30px;
+    margin-right: 200px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border: #00838F, 3px;
+    border-radius: 5px;
+    background-color:#00838F;
+}
+
+
+#footer{
+    font-size: 28px;
+    width: 1130px;
     text-align: center;
+    height: 5px;
+    margin: 20px;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-block-end: 40px;
 }
 
 .panel{
@@ -81,9 +102,12 @@ width: 130px;
 height: 50px;
 margin: 20px;
 color:white;
+border: #FF9100, 3px;
+border-radius: 5px;
 text-align: center;
 padding: 20px;
 background-color: #FF9100
+
 }
 #button1:hover{
     color: gray;
@@ -95,6 +119,8 @@ width: 130px;
 height: 50px;
 margin: 20px;
 padding: 20px;
+border: #FF9100, 3px;
+border-radius: 5px;
 text-align: center;
 background-color: #FF9100
 }
@@ -108,6 +134,8 @@ width: 130px;
 height: 50px;
 margin: 20px;
 padding: 20px;
+border: #FF9100, 3px;
+border-radius: 5px;
 text-align: center;
 background-color: #FF9100
 }
@@ -123,6 +151,8 @@ height: 50px;
 margin: 20px;
 padding: 20px;
 color: white;
+border: #FF9100, 3px;
+border-radius: 5px;
 text-align: center;
 background-color: #FF9100
 }
@@ -130,3 +160,27 @@ background-color: #FF9100
     color: gray;
     background-color: #FF6D00
 }
+
+#zaloguj{
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: #00BCD4, 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #00BCD4;
+}
+
+#logintable{
+    border-radius: 5px;
+    margin-left:8px;
+}
+#paswordtable{
+    border-radius: 5px;
+    margin-left:4px;
+}
+
+
+
