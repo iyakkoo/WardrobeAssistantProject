@@ -58,7 +58,8 @@ float: left;
 width: 529px;
 height: 400px;
 margin-top: 100px;
-margin-left: 50px;margin-block-end: 50px;
+margin-left: 50px;
+margin-block-end: 50px;
 padding-right: 30px;
 
 }
@@ -78,7 +79,7 @@ padding-right: 30px;
 
 
 #footer{
-    font-size: 28px;
+    font-size: 20px;
     width: 1130px;
     text-align: center;
     height: 5px;
@@ -86,14 +87,27 @@ padding-right: 30px;
     margin-top: 100px;
     padding-top: 5px;
     padding-block-end: 40px;
+    border-radius: 5px;
+    background: rgba(33, 28, 28, 0.5);
+    filter: alpha(opacity=10);
 }
 
 .panel{
     width: 1018px;
-    height: 280px;
+    height: 150px;
     padding: 30px; 
     margin-right: 120px;
     margin-left: 120px;
+}
+
+#panel2{
+    width: 1018px;
+    height: 280px;
+    padding: 50px;
+    text-align: center;
+    margin-left: 50px;
+    background: rgba(33, 28, 28, 0.5);
+    filter: alpha(opacity=10);
 }
 
 #button1{
@@ -162,12 +176,13 @@ background-color: #FF9100
 }
 
 #zaloguj{
+    font-size: 13px;
     width: 80px;
     height: 40px;
     margin-top: 20px;
     border-radius: 5px;
     border: #00BCD4, 3px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-right: 100px;
     margin-left: 100px;
     background-color: #00BCD4;
