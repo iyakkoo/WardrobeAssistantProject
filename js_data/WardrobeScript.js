@@ -51,4 +51,7 @@ function clickLeftButton(){
     document.getElementById("rotator").innerHTML = '<img src="' + picture[i] + '" alt=""/>'
 }
 
+/* kod do działania zegara*/
+
+
 

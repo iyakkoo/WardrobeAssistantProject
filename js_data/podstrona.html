@@ -13,10 +13,28 @@
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="WardrobeScript.js"></script>
+    <script>
+    function countSecound(){
+                        var today = new Date();
+
+                        var day = today.getDate();
+                        var month = today.getMonth()+1;
+                        var year = today.getFullYear();
+                        var hour = today.getHours();
+                        if(hour < 10) hour = "0" + hour;
+                        var minutes = today.getMinutes();
+                        if(minutes < 10) minutes = "0" + minutes;
+                        var secounds = today.getSeconds();
+                        if(secounds < 10) secounds = "0" + secounds;
+
+                        document.getElementById("clock").innerHTML = day + "/" + month + "/" + year + " | " + hour + ":" + minutes + ":" + secounds;
+                        setTimeout("countSecound()", 1000);
+                    }
+    </script>
     <title>Elektroniczna szafa</title>
    
 </head>  
-<body>
+<body onload="countSecound()">
    <div id="container">
 
         <div class="panel">
@@ -28,7 +46,9 @@
 
         </div>
         <div id="panel2">
-            tu będzie zegar i aktualna pogoda
+            <div id="clock">
+                
+            </div>
         
         </div>
    </div>
