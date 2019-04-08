@@ -1,0 +1,63 @@
+-- Wyczyszczenie bazy
+DROP TABLE IF EXISTS item;
+DROP TABLE IF EXISTS item_category;
+DROP TABLE IF EXISTS item_category_group;
+drop table if exists users_owned_items;
+drop table if exists item_relation;
+drop table if exists users;
+DROP TABLE IF EXISTS status;
+
+
+-- Tabela z użytkownikami
+CREATE TABLE `users` (
+                         `id` bigint NOT NULL AUTO_INCREMENT,
+                         `first_name` varchar(255) DEFAULT NULL,
+    `last_name` varchar(255) DEFAULT NULL,
+    `login` varchar(255) NOT NULL,
+    `password` varchar(255) NOT NULL,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `UK_ow0gan20590jrb00upg3va2fn` (`login`)
+    );
+
+-- Tabela z listą ubrań
+CREATE TABLE item (
+                      `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
+                      `name` varchar(255) NOT NULL,
+    `photo` varchar(255) NOT NULL,
+    PRIMARY KEY (`id`)
+    );
+
+-- Tabela z kategoriami ubrań
+CREATE TABLE item_category (
+                               `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
+                               `category_name` varchar(255) NOT NULL,
+    `id category group` bigint UNSIGNED NOT NULL,
+    PRIMARY KEY (`id`)
+    );
+-- Tabela z grupami kategorii ubran
+CREATE TABLE item_category_group (
+                                     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+                                     `name` VARCHAR(45) NULL,
+    PRIMARY KEY (`id`));
+
+-- Tabela ze statusem
+CREATE TABLE status (
+                        `id` bigint NOT NULL AUTO_INCREMENT,
+                        `in` boolean DEFAULT TRUE,
+                        PRIMARY KEY (`id`)
+    );
+
+CREATE TABLE item_relation (
+                               `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+                               `id_clothes_list` INT UNSIGNED NOT NULL,
+                               `id_clothes_category` INT UNSIGNED NOT NULL,
+                               `id_status` INT UNSIGNED NOT NULL,
+                               PRIMARY KEY (`id`));
+
+-- Tabela z przypisaniem rzeczy do użytkownika
+CREATE TABLE `users_owned_items` (
+                                     `user_id` bigint NOT NULL,
+                                     `item_id` bigint NOT NULL,
+                                     PRIMARY KEY (`user_id`,`item_id`),
+    CONSTRAINT `FK9740l3kh8nu2fg4waldorf9u` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
+    );
