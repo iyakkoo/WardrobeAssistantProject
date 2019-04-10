@@ -16,21 +16,22 @@ CREATE TABLE `users` (
   UNIQUE KEY `UK_ow0gan20590jrb00upg3va2fn` (`login`)
 );
 
-CREATE SCHEMA `clothes_list` DEFAULT CHARACTER SET utf8 COLLATE utf8_polish_ci ;
+--CREATE SCHEMA `clothes_list` DEFAULT CHARACTER SET utf8 COLLATE utf8_polish_ci ;
 
-USE `clothes_list`
+USE `item_list`
 
 -- Tabela z listą ubrań
-CREATE TABLE `clothes_list`.`clothes_list`. (
+CREATE TABLE `item_list`.`item_list`. (
   `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
   `login` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   `photo` varchar(255) NOT NULL,
+  `status` boolean DEFAULT TRUE ,
   PRIMARY KEY (`id`)
 );
 
 -- Tabela z kategoriami ubrań
-CREATE TABLE clothes_list.`clothes_category` (
+CREATE TABLE item_list.`item_category` (
   `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
   `category_name` varchar(255) NOT NULL,
   `id category group` bigint UNSIGNED NOT NULL,
@@ -38,25 +39,28 @@ CREATE TABLE clothes_list.`clothes_category` (
   UNIQUE KEY `UK_85woe63nu9klkk9fa73vf0jd0` (`name`)
 );
 -- Tabela z grupami kategorii ubran
-CREATE TABLE `clothes_list`.`clothes_category_group` (
+CREATE TABLE `item_list`.`item_category_group` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
 
 -- Tabela ze statusem
-CREATE TABLE `clothes_list`.`status` (
-  `id` bigint NOT NULL AUTO_INCREMENT,
-  `in` boolean DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `UK_5snij5p1dj99c9kbmcuvsjjav` (`name`)
+--CREATE TABLE `item_list`.`status` (
+ -- `id` bigint NOT NULL AUTO_INCREMENT,
+ -- `in` boolean DEFAULT TRUE,
+ -- PRIMARY KEY (`id`),
+ -- UNIQUE KEY `UK_5snij5p1dj99c9kbmcuvsjjav` (`name`)
 );
 
-CREATE TABLE `clothes_list`.`clothes_relation` (
+CREATE TABLE `users`.`item_list`.`item_relation` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  `id_clothes_list` INT UNSIGNED NOT NULL,
-  `id_clothes_category` INT UNSIGNED NOT NULL,
-  `id_status` INT UNSIGNED NOT NULL,
+  `id_item_list` INT UNSIGNED NOT NULL,
+  `id_item_category` INT UNSIGNED NOT NULL,
+  `id_users` INT UNSIGNED NOT NULL,
+ -- `id_status` INT UNSIGNED NOT NULL,
+
   PRIMARY KEY (`id`));
+
 
 -- Tabela z przypisaniem umiejętności do źródeł
 --CREATE TABLE `knowledge_sources_skills` (
