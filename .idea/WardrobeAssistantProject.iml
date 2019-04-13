@@ -5,8 +5,8 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
-          <factory-entry name="entityManagerFactory" value="88231ce0-df6b-4d6b-9dc9-0abf2849e6e2" />
-          <factory-entry name="wardrobePU" value="88231ce0-df6b-4d6b-9dc9-0abf2849e6e2" />
+          <factory-entry name="entityManagerFactory" />
+          <factory-entry name="wardrobePU" />
         </datasource-mapping>
         <naming-strategy-map />
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />

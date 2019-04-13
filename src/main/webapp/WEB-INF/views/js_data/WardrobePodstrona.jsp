@@ -20,7 +20,7 @@
    <div id="container">
 
     <div class="panel">
-        <a href="podstrona.jsp"><div id="button1">Wyjdź z szafy</div></a>
+        <a href="podstrona"><div id="button1">Wyjdź z szafy</div></a>
         <div id="button2">Dodaj ubranie</div>
         <div id="button3">Usuń ubranie</div>
         <a href="WardrobeIndex.jsp"><div id="button4">Wyloguj</div></a>

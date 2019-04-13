@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping
 public class AppController {
-    @GetMapping
+
+    @GetMapping(path = "WardrobeIndex")
     public String showStartPage() {
         return "/js_data/WardrobeIndex";
     }

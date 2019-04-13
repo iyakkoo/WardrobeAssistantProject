@@ -59,7 +59,7 @@
             <p></p>
             HASŁO:
             <input id="paswordtable" type="text>"/> <br/>
-            <a href="WardrobePodstrona.jsp"><input type="button" value="ZALOGUJ" id="zaloguj"/></a>
+            <a href="WardrobePodstrona"><input type="button" value="ZALOGUJ" id="zaloguj"/></a>
         </div>
         <div id="footer">projekt na koniec kursu programowania java sda</div>
         
