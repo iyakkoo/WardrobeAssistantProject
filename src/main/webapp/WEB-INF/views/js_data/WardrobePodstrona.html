@@ -12,10 +12,10 @@
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="WardrobeScript.js"></script>
-    
+
     <title>Elektroniczna szafa</title>
-   
-</head>  
+
+</head>
 <body>
    <div id="container">
 
@@ -25,16 +25,25 @@
         <div id="button3">Usuń ubranie</div>
         <a href="WardrobeIndex.html"><div id="button4">Wyloguj</div></a>
     </div>
-    <div id="leftButton" onclick="clickLeftButton()"> 
-        <p id="arrowLeft"> < </p> 
-    </div>
-    <div id="rotator">
-        <img src="img/zestawy/zestaw0.jpg" alt=""/>
-    </div>
-    <div id="rightButton" onclick="clickRightButton()"> 
-        <p id="arrowRight">  >  </p>
-    </div>
 
+    <div id="rotator">
+
+      <div id="leftButtonBluzki" onclick="clickLeftButton()"> < </div>
+      <div id="bluzki">
+        <img src="img/zestawy/bluzki/img1.jpg" alt=""/>
+      </div>
+      <div id="rightButtonBluzki" onclick="clickRightButton()"> > </div>
+      <div id="end"></div>
+
+      <div id="leftSpodnie" onclick="clickLeftButtonSpodnie()"> < </div>
+      <div id="spodnie">
+        <img src="img/zestawy/spodnie/img1.jpg" alt=""/>
+      </div>
+      <div id="rightSpodnie" onclick="clickRightButtonSpodnie()"> > </div>
+
+
+
+    </div>
 
    </div>
 </body>
