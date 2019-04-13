@@ -39,10 +39,10 @@
 
         <div class="panel">
        
-        <a href="WardrobePodstrona.html"><div id="button1">Wejdź do szafy</div></a>
+        <a href="WardrobePodstrona.jsp"><div id="button1">Wejdź do szafy</div></a>
         <div id="button2">Dodaj ubranie</div>
         <div id="button3">Usuń ubranie</div>
-        <a href="WardrobeIndex.html"><div id="button4">Wyloguj</div></a>
+        <a href="WardrobeIndex.jsp"><div id="button4">Wyloguj</div></a>
 
         </div>
         <div id="panel2">

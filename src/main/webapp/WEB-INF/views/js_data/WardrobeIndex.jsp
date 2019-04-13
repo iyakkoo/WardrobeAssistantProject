@@ -55,11 +55,11 @@
             ZALOGUJ SIĘ: <br/>
             <br/>
             LOGIN:
-            <input id="logintable" type="text"/> <br/>
+            <label for="logintable"></label><input id="logintable" type="text"/> <br/>
             <p></p>
             HASŁO:
             <input id="paswordtable" type="text>"/> <br/>
-            <a href="podstrona.html"><input type="button" value="ZALOGUJ" id="zaloguj"/></a>
+            <a href="WardrobePodstrona.jsp"><input type="button" value="ZALOGUJ" id="zaloguj"/></a>
         </div>
         <div id="footer">projekt na koniec kursu programowania java sda</div>
         

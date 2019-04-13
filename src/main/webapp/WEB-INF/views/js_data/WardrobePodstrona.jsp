@@ -20,10 +20,10 @@
    <div id="container">
 
     <div class="panel">
-        <a href="podstrona.html"><div id="button1">Wyjdź z szafy</div></a>
+        <a href="podstrona.jsp"><div id="button1">Wyjdź z szafy</div></a>
         <div id="button2">Dodaj ubranie</div>
         <div id="button3">Usuń ubranie</div>
-        <a href="WardrobeIndex.html"><div id="button4">Wyloguj</div></a>
+        <a href="WardrobeIndex.jsp"><div id="button4">Wyloguj</div></a>
     </div>
     <div id="leftButton" onclick="clickLeftButton()"> 
         <p id="arrowLeft"> < </p> 
