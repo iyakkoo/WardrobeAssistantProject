@@ -10,15 +10,15 @@ body {
     user-select: none;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    background-image: url(img/background.jpeg)
-    
+    background-image: url(img/background.jpeg);
 }
+
 #container {
 
     width: 1218px;
     height: 1000px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 #header{
@@ -31,7 +31,7 @@ body {
     padding-block-end: 40px;
     border-radius: 5px;
     background-image: url(img/Orange-Background2.png)
-    
+
 }
 
 #title{
@@ -95,7 +95,7 @@ padding-right: 30px;
 .panel{
     width: 1018px;
     height: 150px;
-    padding: 30px; 
+    padding: 30px;
     margin-right: 120px;
     margin-left: 120px;
 }
@@ -257,6 +257,3 @@ background-color: #FF9100
     color:black;
     border: 3px solid black;
 }
-
-
-

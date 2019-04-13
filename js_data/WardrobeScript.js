@@ -1,4 +1,4 @@
-/*kod do slajdu*/
+/*kod do slajdu na stronie startowej*/
 var number = Math.floor(Math.random()*3)+1;
 var timer1 = 0;
 var timer2 = 0;
@@ -51,7 +51,8 @@ function clickLeftButton(){
     document.getElementById("rotator").innerHTML = '<img src="' + picture[i] + '" alt=""/>'
 }
 
-/* kod do działania zegara*/
+/*kod do slajdu background*/
+
 
 
 
