@@ -1,0 +1,262 @@
+body {
+
+    font-size: 17px;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    background-image: url(img/background.jpeg)
+    
+}
+#container {
+
+    width: 1218px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#header{
+    font-size: 28px;
+    width: 1130px;
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+    padding-top: 5px;
+    padding-block-end: 40px;
+    border-radius: 5px;
+    background-image: url(img/Orange-Background2.png)
+    
+}
+
+#title{
+    margin-block-end: 30px;
+}
+
+#content{
+float: left;
+width: 559px;
+height: 370;
+padding-left: 30px;
+padding-top: 50px;
+padding-block-end: 30px;
+margin-left: 20px;
+margin-top: 50px;
+border-radius: 10px;
+background: rgba(33, 28, 28, 0.5);
+filter: alpha(opacity=10);
+
+}
+
+#img{
+float: left;
+width: 529px;
+height: 400px;
+margin-top: 100px;
+margin-left: 50px;
+margin-block-end: 50px;
+padding-right: 30px;
+
+}
+
+#login{
+    clear: both;
+    width: 300px;
+    height: 170px;
+    padding: 30px;
+    margin-right: 200px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border: #00838F, 3px;
+    border-radius: 5px;
+    background-color:#00838F;
+}
+
+
+#footer{
+    font-size: 20px;
+    width: 1130px;
+    text-align: center;
+    height: 5px;
+    margin: 20px;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-block-end: 40px;
+    border-radius: 5px;
+    background: rgba(33, 28, 28, 0.5);
+    filter: alpha(opacity=10);
+}
+
+.panel{
+    width: 1018px;
+    height: 150px;
+    padding: 30px; 
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+#panel2{
+    width: 1018px;
+    height: 280px;
+    padding: 50px;
+    text-align: center;
+    margin-left: 50px;
+    background: rgba(33, 28, 28, 0.5);
+    filter: alpha(opacity=10);
+}
+
+#button1{
+float: left;
+font-size: 19px;
+width: 130px;
+height: 50px;
+margin: 20px;
+color:white;
+border: #FF9100, 3px;
+border-radius: 5px;
+text-align: center;
+padding: 20px;
+background-color: #FF9100
+
+}
+#button1:hover{
+    color: gray;
+    background-color: #FF6D00
+}
+#button2{
+float: left;
+font-size: 19px;
+width: 130px;
+height: 50px;
+margin: 20px;
+padding: 20px;
+border: #FF9100, 3px;
+border-radius: 5px;
+text-align: center;
+background-color: #FF9100
+}
+#button2:hover{
+    color: gray;
+    background-color: #FF6D00
+}
+#button3{
+float: left;
+font-size: 19px;
+width: 130px;
+height: 50px;
+margin: 20px;
+padding: 20px;
+border: #FF9100, 3px;
+border-radius: 5px;
+text-align: center;
+background-color: #FF9100
+}
+#button3:hover{
+    color: gray;
+    background-color: #FF6D00
+}
+
+#button4{
+float: left;
+font-size: 19px;
+width: 130px;
+height: 50px;
+margin: 20px;
+padding: 20px;
+color: white;
+border: #FF9100, 3px;
+border-radius: 5px;
+text-align: center;
+background-color: #FF9100
+}
+#button4:hover{
+    color: gray;
+    background-color: #FF6D00
+}
+
+#zaloguj{
+    font-size: 25px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: #00BCD4, 3px;
+    font-family: 'Amatic SC', cursive;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #00BCD4;
+}
+#zaloguj:hover{
+    background-color: #006064;
+}
+
+#logintable{
+    border-radius: 5px;
+    margin-left:11px;
+}
+#paswordtable{
+    border-radius: 5px;
+    margin-left:4px;
+}
+
+#rightButton{
+    float: left;
+    text-align: center;
+    font-size: 45px;
+    width: 80px;
+    height: 120px;
+    margin: 20px;
+    margin-top: 200px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    background: rgba(33, 28, 28, 0.5);
+    filter: alpha(opacity=10);
+}
+#arrowRight{
+    margin-top: 25px;
+}
+#rightButton:hover{
+    background: rgba(128, 128, 128, 0.5);
+    filter: alpha(opacity=10);
+    color:black;
+    border: 3px solid black;
+}
+
+#rotator{
+    float: left;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    background: rgba(33, 28, 28, 0.5);
+    filter: alpha(opacity=10);
+}
+#leftButton{
+    float: left;
+    text-align: center;
+    font-size: 45px;
+    width: 80px;
+    height: 120px;
+    margin: 20px;
+    margin-top: 200px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    background: rgba(33, 28, 28, 0.5);
+    filter: alpha(opacity=10);
+}
+#arrowLeft{
+    margin-top:25px;
+}
+#leftButton:hover{
+    background: rgba(128, 128, 128, 0.5);
+    filter: alpha(opacity=10);
+    color:black;
+    border: 3px solid black;
+}
+
+
+

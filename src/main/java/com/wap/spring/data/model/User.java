@@ -19,7 +19,7 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
     @ManyToMany
-    @JoinTable(name = "users_owned_clothes",
+    @JoinTable(name = "users_owned_items",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "item_id"))
     private Set<Item> itemList = new HashSet<>();
