@@ -8,7 +8,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-image: url(../Images/background.jpeg)
     
@@ -41,7 +41,7 @@ body {
 #content{
 float: left;
 width: 559px;
-height: 370;
+height: 370px;
 padding-left: 30px;
 padding-top: 50px;
 padding-block-end: 30px;

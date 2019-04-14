@@ -22,7 +22,7 @@ function changeSlide(){
     
     number++;if (number>3) {number=1;}
 
-    var file = "<img src=\"img/ubrania/img" + number + ".jpg\"/>";
+    var file = "<img src=\"Images/ubrania/img" + number + ".jpg\"/>";
 
     document.getElementById("img").innerHTML = file;
     $("#img").fadeIn(500);
@@ -32,10 +32,10 @@ function changeSlide(){
 /*kod do działania szafy*/
 
 var picture = new Array(4);
-picture[0] = "img/zestawy/zestaw0.jpg";
-picture[1] = "img/zestawy/zestaw1.jpg";
-picture[2] = "img/zestawy/zestaw2.jpg";
-picture[3] = "img/zestawy/zestaw3.jpg";
+picture[0] = "Images/zestawy/zestaw0.jpg";
+picture[1] = "Images/zestawy/zestaw1.jpg";
+picture[2] = "Images/zestawy/zestaw2.jpg";
+picture[3] = "Images/zestawy/zestaw3.jpg";
 var i = 0;
 
 function clickRightButton(){
