@@ -75,12 +75,12 @@ public class UserService {
 //        }
 //    }
 
-    public boolean checkCredentials(String login, String password) {
-        // TODO Uzupełnij implementację z wykorzystaniem Spring Data
-        boolean existsUser = userRepository.checkIfUserExists(login, password);
-
-        return existsUser;
-    }
+//    public boolean checkCredentials(String login, String password) {
+//        // TODO Uzupełnij implementację z wykorzystaniem Spring Data
+//        boolean existsUser = userRepository.checkIfUserExists(login, password);
+//
+//        return existsUser;
+//    }
 //
 //    public LoggedUserDTO getUser(String login, String password) {
 //        // TODO Uzupełnij implementację z wykorzystaniem Spring Data

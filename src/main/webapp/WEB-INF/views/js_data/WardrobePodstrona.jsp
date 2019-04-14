@@ -23,7 +23,7 @@
         <a href="podstrona"><div id="button1">Wyjdź z szafy</div></a>
         <div id="button2">Dodaj ubranie</div>
         <div id="button3">Usuń ubranie</div>
-        <a href="WardrobeIndex.jsp"><div id="button4">Wyloguj</div></a>
+        <a href="WardrobeIndex"><div id="button4">Wyloguj</div></a>
     </div>
     <div id="leftButton" onclick="clickLeftButton()"> 
         <p id="arrowLeft"> < </p> 

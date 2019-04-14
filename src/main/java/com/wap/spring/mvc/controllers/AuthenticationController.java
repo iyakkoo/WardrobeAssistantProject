@@ -30,15 +30,15 @@ public class AuthenticationController {
 
     @PostMapping("/login")
     public void login(String login, String password, HttpSession session, HttpServletResponse response) throws IOException {
-        boolean validCredentials = userService.checkCredentials(login, password);
-        if (!validCredentials) {
-            response.sendError(401, "Błędne dane logowania");
-            return;
-        }
-
-        LoggedUserDTO user = userService.getUser(login, password);
-        session.setAttribute("user", user);
-        response.sendRedirect("/");
+//        boolean validCredentials = userService.checkCredentials(login, password);
+//        if (!validCredentials) {
+//            response.sendError(401, "Błędne dane logowania");
+//            return;
+//        }
+//
+//        LoggedUserDTO user = userService.getUser(login, password);
+//        session.setAttribute("user", user);
+//        response.sendRedirect("/");
     }
 
     @GetMapping("/logout")
