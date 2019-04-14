@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="WardrobeStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&amp;subset=latin-ext" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="WardrobeScript.js"></script>
+
+    <title>Elektroniczna szafa</title>
+
+</head>
+<body>
+   <div id="container">
+
+    <div class="panel">
+        <a href="podstrona.html"><div id="button1">Wyjdź z szafy</div></a>
+        <div id="button2">Dodaj ubranie</div>
+        <div id="button3">Usuń ubranie</div>
+        <a href="WardrobeIndex.html"><div id="button4">Wyloguj</div></a>
+    </div>
+
+    <div id="rotator">
+
+      <div id="leftButtonBluzki" onclick="clickLeftButton()"> < </div>
+      <div id="bluzki">
+        <img src="img/zestawy/bluzki/img1.jpg" alt=""/>
+      </div>
+      <div id="rightButtonBluzki" onclick="clickRightButton()"> > </div>
+      <div id="end"></div>
+
+      <div id="leftSpodnie" onclick="clickLeftButtonSpodnie()"> < </div>
+      <div id="spodnie">
+        <img src="img/zestawy/spodnie/img1.jpg" alt=""/>
+      </div>
+      <div id="rightSpodnie" onclick="clickRightButtonSpodnie()"> > </div>
+
+
+
+    </div>
+
+   </div>
+</body>
+</html>
