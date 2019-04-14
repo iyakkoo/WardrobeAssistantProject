@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="WardrobeStyle.css">
+    <link rel="stylesheet" href="../CSS/WardrobeStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito&amp;subset=latin-ext" rel="stylesheet">
@@ -11,7 +11,7 @@
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
-    <script src="WardrobeScript.js"></script>
+    <script src="../JS/WardrobeScript.js"></script>
     
     <title>Elektroniczna szafa</title>
    
@@ -29,7 +29,7 @@
         <p id="arrowLeft"> < </p> 
     </div>
     <div id="rotator">
-        <img src="img/zestawy/zestaw0.jpg" alt=""/>
+        <img src="views/js_data/img/zestawy/zestaw0.jpg" alt=""/>
     </div>
     <div id="rightButton" onclick="clickRightButton()"> 
         <p id="arrowRight">  >  </p>

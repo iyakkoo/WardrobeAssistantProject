@@ -10,7 +10,7 @@ body {
     user-select: none;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    background-image: url(img/background.jpeg)
+    background-image: url(../Images/background.jpeg)
     
 }
 #container {
@@ -30,7 +30,7 @@ body {
     padding-top: 5px;
     padding-block-end: 40px;
     border-radius: 5px;
-    background-image: url(img/Orange-Background2.png)
+    background-image: url(../Images/Orange-Background2.png)
     
 }
 
